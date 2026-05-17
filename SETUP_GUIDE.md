@@ -149,7 +149,7 @@ CRITICAL: Validation failed. Switching to offline mode.
 The credentials are hardcoded in `main.cpp`:
 
 ```cpp
-db.connect("root", "EquinoxScout30");
+db.connect("root", "Your Password");
 ```
 
 If your MySQL root password is **different**, open `main.cpp` and update the second argument before building:
@@ -474,7 +474,7 @@ The `INPUT_DATA` folder or `database.txt` file does not exist in the project dir
 | Build Platform | **x64 only** |
 | Database Name | `agri_dss` |
 | DB Host | `tcp://127.0.0.1:3306` |
-| Default Credentials | `root` / `EquinoxScout30` *(change if different)* |
+| Default Credentials | `root` / `Your Password` *(change if different)* |
 
 ---
 
